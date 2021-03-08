@@ -49,12 +49,6 @@ $('.slide-discovery').owlCarousel({
 });
 
 function setNavigation() {
-  // var path = window.location.pathname;
-  // path = path.replace(/\/$/, "");
-  // path = decodeURIComponent(path);
-  // path = "." + path;
-  // console.log(path);
-
   var current_page_URL = location.href;
   $(".nav a").each(function() {
       if ($(this).attr("href") !== "#") {
@@ -64,11 +58,6 @@ function setNavigation() {
         }
       }
   });
-
-  // $(".nav a").each(function () {
-  //   var href = $(this).attr('href');
-  //   if (path.substring(0, href.length) === href) $(this).closest('a').addClass('active-nav');
-  // });
 }
 
 setNavigation();
