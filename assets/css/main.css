@@ -22,7 +22,9 @@
   margin: 0;
   padding: 0;
   border: none; }
-
+h3{
+  color: blue !important;
+}
 body {
   background-color: white;
   color: #2B4429;
