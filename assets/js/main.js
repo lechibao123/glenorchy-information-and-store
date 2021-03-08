@@ -49,6 +49,7 @@ $('.slide-discovery').owlCarousel({
 });
 
 function setNavigation() {
+  console.log(123);
   var path = window.location.pathname;
   path = path.replace(/\/$/, "");
   path = decodeURIComponent(path);
